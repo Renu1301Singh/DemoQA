@@ -28,9 +28,9 @@ Website URL:"https://demoqa.com/automation-practice-form"
 
 ## Requirements
 
-Node.js (v12.x or later)
-Nightwatch.js
-WebDriver (ChromeDriver, GeckoDriver, etc.)
+-Node.js (v12.x or later)
+-Nightwatch.js
+-WebDriver (ChromeDriver, GeckoDriver, etc.)
 
 ## Project Structure
 
