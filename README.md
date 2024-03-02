@@ -2,7 +2,7 @@
 
 
 ## Objective
--> Testing a Website using Nightwatch.js with Page Object model design pattern.\
+Testing a Website using Nightwatch.js with Page Object model design pattern.
 
 
 ## Overview
@@ -34,7 +34,7 @@ WebDriver (ChromeDriver, GeckoDriver, etc.)
 
 DEMOQA/
 │
-├── page-objects/                # Page Object Model (POM) directory
+├── page-objects/               # Page Object Model (POM) directory
 │   ├── Homepage.js       # Page object for form page
 │
 ├── test/                # Test scripts directory
@@ -45,3 +45,4 @@ DEMOQA/
 ├── nightwatch.conf.js    # Nightwatch configuration file
 └── package-lock.json          
 └── package.json          # Node.js dependencies and scripts
+
