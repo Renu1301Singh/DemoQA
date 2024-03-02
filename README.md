@@ -33,24 +33,22 @@ Nightwatch.js
 WebDriver (ChromeDriver, GeckoDriver, etc.)
 
 ## Project Structure
-automated-testing-framework/
+
+```sh
+DEMOQA/
 │
-├── tests/ # Test scripts directory
-│ ├── loginTests.js # Test scripts for login functionality
-│ ├── registrationTests.js # Test scripts for user registration functionality
-│ └── ...
+├── page-objects/               # Page Object Model (POM) directory
+│   ├── Homepage.js       # Page object for form page
 │
-├── pages/ # Page Object Model (POM) directory
-│ ├── loginPage.js # Page object for login page
-│ ├── registrationPage.js # Page object for registration page
-│ └── ...
+├── test/                # Test scripts directory
+│   ├── Tests.js      # Test scripts for form inputs
+│   └── ...
 │
-├── config/ # Configuration files directory
-│ ├── environments.json # Test environment configurations
-│ ├── nightwatch.conf.js # Nightwatch configuration file
-│ └── ...
 │
-└── ...
+├── nightwatch.conf.js    # Nightwatch configuration file
+└── package-lock.json          
+└── package.json          # Node.js dependencies and scripts
+
 
 
 
