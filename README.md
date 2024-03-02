@@ -15,14 +15,15 @@ pattern for better maintainability and readability of test code automation scrip
 ## Website Under Test
 
 For implementing the above objective a demo website is chosen.
+
 Website URL:"https://demoqa.com/automation-practice-form"
 
 
 ## Features
 
--> Automated testing of form inputs on demoQA website.
--> Utilizes Nightwatch.js for end-to-end testing.
--> Follows the Page Object Model for better test structure and maintenance.
+- Automated testing of form inputs on demoQA website.
+- Utilizes Nightwatch.js for end-to-end testing.
+- Follows the Page Object Model for better test structure and maintenance.
 
 ## Requirements
 
