@@ -34,10 +34,8 @@ WebDriver (ChromeDriver, GeckoDriver, etc.)
 
 ## Project Structure
 
-### DEMOQA/
-
-
-
+DEMOQA/
+│
 ├── page-objects/               # Page Object Model (POM) directory
 │   ├── Homepage.js       # Page object for form page
 │
