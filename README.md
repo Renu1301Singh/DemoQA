@@ -15,6 +15,7 @@ pattern for better maintainability and readability of test code automation scrip
 ## Website Under Test
 
 For implementing the above objective a demo website is chosen.
+...
 
 Website URL:"https://demoqa.com/automation-practice-form"
 
@@ -34,7 +35,8 @@ WebDriver (ChromeDriver, GeckoDriver, etc.)
 ## Project Structure
 
 DEMOQA/
-│
+....
+
 ├── page-objects/               # Page Object Model (POM) directory
 │   ├── Homepage.js       # Page object for form page
 │
