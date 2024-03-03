@@ -10,6 +10,9 @@ Testing a Website using Nightwatch.js with Page Object model design pattern.
 >This repository contains automated test scripts for a demo website using Nightwatch.js,
 >a popular end-to-end testing framework, and follows the Page Object Model (POM) design
 >pattern for better maintainability and readability of test code automation scripts.
+>The website chosen for this is a form filling demo website which contains various input fields
+>here i'm only checking filling form with mandatroy fields inputs.
+
 
 
 ## Website Under Test
