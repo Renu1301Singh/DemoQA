@@ -22,10 +22,8 @@ module.exports = {
         selectSubject: '.subjects-auto-complete__menu.css-2613qy-menu ',
         Hobbies:`label[for='hobbies-checkbox-1']`,
         currentAddress: '#currentAddress',
-        selectStateDropDown: 'div:nth-child(2)>div>div>div>.css-tlfecz-indicatorContainer',
-        
-        SelectCityDropDown:'div:nth-child(3)>div>div>div>.css-tlfecz-indicatorContainer',
-        
+        selectStateDropDown: 'div:nth-child(2)>div>div>div>.css-tlfecz-indicatorContainer', 
+        SelectCityDropDown:'div:nth-child(3)>div>div>div>.css-tlfecz-indicatorContainer',       
         submitButton:'.btn.btn-primary',
         SubmitMessage: '#example-modal-sizes-title-lg',
         closeButton:'#closeLargeModal',

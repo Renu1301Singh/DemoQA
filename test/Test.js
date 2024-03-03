@@ -109,6 +109,7 @@ describe('Filling Pratice Form of DemoQA Website for checking mandatory input fi
 
     it('13.) user is able to close the filled form display: ', function(){
       homePage.closeForm;
+      homePage.pause(1000)
       homePage.expect.element('@praticeFormTitle').text.to.contain('Practice Form')
     })
 
