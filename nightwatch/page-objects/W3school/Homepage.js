@@ -27,7 +27,9 @@ module.exports = {
         SelectCityDropDown:'div:nth-child(3)>div>div>div>.css-tlfecz-indicatorContainer',
         
         submitButton:'.btn.btn-primary',
-        SubmitMessage: '.modal-title.h4',
+        SubmitMessage: '#example-modal-sizes-title-lg',
+        closeButton:'#closeLargeModal',
+        praticeFormTitle:'.text-center',
 
     },
     commands: [ {
@@ -103,7 +105,12 @@ module.exports = {
       submissionMessage(){
         return this
         .assert.textContains('@SubmitMessage',"Thanks for submitting the form")
-      }
+      },
+
+      closeForm(){
+        return this
+        .click('@closeButton')
+      },
     }],
 
 };
