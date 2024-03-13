@@ -1,7 +1,3 @@
-## Summary 
-
-## Details
-
 
 ## Checks
 - [ ] Tests
