@@ -15,28 +15,24 @@ jobs:
     
     steps:
 
+     
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-         #node-version: $undefined
-         cache: 'npm'
 
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 21
-
-      - name: npm-install
+      - name: Change directory to DemoQA and install dependencies
         run: |
-        
-          npm ci
-
-      - name: Install xvfb
-        run: |
-          sudo apt-get update
-          sudo apt-get install xvfb
-
+          
+          npm install
       - name: Run Nightwatch tests
         run: |
-         
-          xvfb-run --auto-servernum npm test -- --env chrome
+          
+          node nightwatch.conf.js
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        with:
+         name: nightwatch-test-results
+         path: DemoQA/test-results 
